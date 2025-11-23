@@ -5,7 +5,7 @@ metadata:
   labels:
     app: backend
 spec:
-  replicas: 3
+  replicas: 5 # Increased replicas from 3 to 5 for better availability
   revisionHistoryLimit: 2
   selector:
     matchLabels:
